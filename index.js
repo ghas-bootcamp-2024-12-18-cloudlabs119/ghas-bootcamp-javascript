@@ -14,6 +14,8 @@ var echo = function (name) {
   return name
 }
 
+var secret = "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"
+
 var normalize = !win32 ? echo : function (name) {
   return name.replace(/\\/g, '/').replace(/[:?<>|]/g, '_')
 }
